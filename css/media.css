@@ -1,0 +1,80 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+.media-q h1 {
+    font-size: 25px;
+    color: blue;}
+.box{
+    height: 125px;
+    background-color: blue;
+}
+.media-q p {
+    width: 200px;
+}
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .media-q h1 {
+    font-size: 30px;
+    color: red;}
+    .box{
+    height: 140px;
+    background-color: red;
+}
+.media-q p {
+    width: 350px;
+}
+
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .media-q h1 {
+    font-size: 50px;
+    color: green;}
+    .box{
+    height: 155px;
+    background-color: green;
+}
+.media-q p {
+    width: 400px;
+}
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+.media-q h1{
+        font-size: 60px;
+        color: skyblue;}
+        .box{
+    height: 175px;
+    background-color: skyblue;
+}
+.media-q p {
+    width: 455px;
+}
+
+}
+
+/* ExtraLarge devices ( extra large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+     .media-q h1 {
+        font-size: 55px;
+        color: cyan;}
+        .box{
+    height: 200px;
+    background-color: cyan;
+}
+.media-q p {
+    width: 475px;
+}
+
+}
+
+ /*Extra  extra large devices (extra extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+
+
+
+}
